@@ -1,17 +1,33 @@
 {
   "name": "bigjpg",
   "version": "1.0.0",
-  "type": "module",
+  "types": "index.d.ts",
   "description": "Simple wrapper for https://bigjpg.com/",
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node example.ts",
     "build": "tsc"
   },
-  "keywords": ["bigjpg", "api", "wrapper"],
+  "keywords": [
+    "bigjpg",
+    "api",
+    "wrapper"
+  ],
   "author": "Marcuth",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^1.2.2"
+    "axios": "^1.2.2",
+    "image-downloader": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Marcuth/bigjpg-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1Marcuth/bigjpg-js/issues"
+  },
+  "homepage": "https://github.com/1Marcuth/bigjpg-js#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18"
   }
 }
