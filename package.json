@@ -1,12 +1,11 @@
 {
   "name": "bigjpg",
-  "version": "1.0.0",
-  "types": "index.d.ts",
-  "description": "Simple wrapper for https://bigjpg.com/",
+  "version": "1.0.1",
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "dev": "ts-node example.ts",
-    "build": "tsc"
+    "build": "tsc --declaration",
+    "dev": "ts-node example.js"
   },
   "keywords": [
     "bigjpg",
